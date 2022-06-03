@@ -1,6 +1,6 @@
 # Sudo Science: Building an Empirical Understanding of Deep Learning
 
-## Workshop Schedule (times ET)
+## Tentative Workshop Schedule (times ET)
 
 
 | Time    	| Speaker/ Activity   	     | 
@@ -18,6 +18,8 @@
 |5:00pm-6:00pm | Poster Session | 
 
 ***Panel members - Preetum Nakkiran, Anima Anandkumar, Yasaman Bahri, Shibani Santurkar, Behnam Neyshabur, SueYeon Chung**
+
+----
 
 Despite the widespread proliferation of neural networks, the mechanisms by which they operate so successfully are not well understood.  While there is a strong community that seeks to understand training and generalization, this work is largely done by developing fundamental mathematical theory. These theories often rely on strong assumptions and significantly simplified setups that admit tractable mathematical analysis, but have the unintended consequence of also paring away complexities of deep learning pipelines that may be responsible for their success.  At the same time, there is a large community focused on experimental studies of full-scale deep learning systems, but nearly all empirical studies are focused on applied science — fine-tuning, and improving benchmark numbers. Meanwhile, the deep learning community has had trouble creating a home for fundamental science, i.e, empirical studies that seek to understand the phenomena that underlie training and generalization using the scientific method without resorting to highly simplified toy models.  Fundamental empirical studies risk rejection by the deeply mathematical fundamental ML community because they do not contain proofs, and simultaneously fail to appeal to the applied science community because they do not advance conventional engineering benchmarks.  
 
