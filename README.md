@@ -17,7 +17,7 @@
 |4:00pm-4:45pm | Talk 6 (Preetum Nakkiran) and Q&A |
 |5:00pm-6:00pm | Poster Session | 
 
-***Panel members - Preetum Nakkiran, Anima Anandkumar, Yasaman Bahri, Shibani Santurkar, Behnam Neyshabur, SueYeon Chung**
+*Panel members - Preetum Nakkiran, Anima Anandkumar, Yasaman Bahri, Shibani Santurkar, Behnam Neyshabur, SueYeon Chung
 
 ----
 
@@ -33,6 +33,7 @@ The goal of this workshop is to be a home for fundamental studies that use empir
 
 **[Polina Kirichenko](),** _PhD student at New York University_.
 >Polina’s research focuses on deep learning robustness, uncertainty estimation and generative models. During her PhD, she interned at Meta AI, DeepMind, and Cold Spring Harbor Laboratory. In 2020, she was supported by the DeepMind fellowship.
+
 **[Preetum Nakkiran](),** _Postdoctoral Researcher at UCSD, member of NSF/Simons Collaboration on the Theoretical Foundations of Deep Learning_.
 >Preetum’s research builds conceptual tools for understanding learning systems, including deep learning--- using both theory and experiment. His past works include Deep Double Descent, the Deep Bootstrap Framework, and Distributional Generalization.
 
