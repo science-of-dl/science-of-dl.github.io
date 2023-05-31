@@ -1,23 +1,25 @@
-# Sudo Science: Building an Empirical Understanding of Deep Learning
+# Sudo Science: Empirical Approaches for Understanding How Deep Learning Works
 
 ## Tentative Workshop Schedule (times ET)
 
 
 | Time    	| Speaker/ Activity   	     | 
 |---------	|-----------	     |
-| 8:30am-9:00am 	| Informal Social Coffee	     | 
-| 9:00am-9:45am    | Talk 1 (Behnam Neyshabur) and Q&A | 
-|10:00am-10:45am |  Talk 2 (Polina Kirichenko) and Q&A |
-| 11:00am-11:45am |Talk 3 (Yann Lecun & Randall Balestriero) and Q&A |
-| 11:45pm-12:30pm| Lunch Break |
-| 12:30pm-1:30pm |Panel Discussion* |
-|1:30pm-2:15pm | Talk 4 (SueYeon Chung) and Q&A |
-|2:30pm-3:15pm |Talk 5 (Maithra Raghu) and Q&A |
-|3:15pm-4:00pm | Casual Breakout Discussion Session |
-|4:00pm-4:45pm | Talk 6 (Preetum Nakkiran) and Q&A |
-|5:00pm-6:00pm | Poster Session | 
+| 9:00am-9:30am 	| Informal Social Coffee	     | 
+| 9:30am-10:05am    | Invited Talk 1 (Ludwig Schmidt) and Q&A | 
+|10:05am-10:40am |  Invited Talk 2 (Yasaman Bahri) and Q&A |
+| 10:40am-11:15am | Invited Talk 3 (Zahra Kadkhodaie) and Q&A |
+| 11:15pm-12:00pm | Contributed Talks Session 1 | 
+| 12:00pm-1:30pm | Lunch Break |
+| 1:30pm-2:05pm | Invited Talk 4 (Behnam Neyshabur) and Q&A |
+|2:05pm-3:30pm | Contributed Talks Session 2 |
+| 3:00pm-3:45pm | Panel Discussion | 
+|3:45pm-5:30pm |  Poster Session |
+| 5:30pm-6:30pm |  Science Meets Theory Speed Dating with Snacks |
+| 6:30pm - | Dinner at Legacy Kitchen's Craft Tavern | 
 
-*Panel members - Preetum Nakkiran, Anima Anandkumar, Yasaman Bahri, Shibani Santurkar, Behnam Neyshabur, SueYeon Chung
+
+*Panel members - Preetum Nakkiran, Surbhi Goel, Zachary Lipton
 
 ----
 
@@ -28,32 +30,36 @@ The goal of this workshop is to be a home for fundamental studies that use empir
 
 ## Invited Speakers
 
-**[SueYeon Chung](),** _Assistant Professor at New York University, Project Leader at Flatiron Institute_.
->SueYeon is an assistant Professor in the Center for Neural Science at NYU,  jointly appointed as a Project Leader at the Flatiron Institute, Simons Foundation. SueYeon’s research interests are at the intersection of computational neuroscience and deep learning. She is interested in understanding computation in the brain and artificial neural networks by analyzing geometries underlying neural or feature representations and developing neural network models and learning rules guided by neuroscience.
-
-**[Polina Kirichenko](),** _PhD student at New York University_.
->Polina’s research focuses on deep learning robustness, uncertainty estimation and generative models. During her PhD, she interned at Meta AI, DeepMind, and Cold Spring Harbor Laboratory. In 2020, she was supported by the DeepMind fellowship.
-
-**[Preetum Nakkiran](),** _Postdoctoral Researcher at UCSD, member of NSF/Simons Collaboration on the Theoretical Foundations of Deep Learning_.
->Preetum’s research builds conceptual tools for understanding learning systems, including deep learning--- using both theory and experiment. His past works include Deep Double Descent, the Deep Bootstrap Framework, and Distributional Generalization.
-
-**[Anima Anandkumar](),** _Professor at California Institute of Technology, Director of ML, NVIDIA_.
->Anima is the Bren Professor of Computing at California Institute of Technology. She is a director of Machine Learning research at NVIDIA. Her research considers tensor-algebraic methods, deep learning, and non-convex problems.
-
-**[Yann Lecun](),** _Silver Professor at Courant Institute, Vice President and Chief AI Scientist at Meta_.
-> Yann’s current interests include AI, machine learning, computer perception, mobile robotics, and computational neuroscience. 
 
 **[Yasaman Bahri](),** _Research Scientist at Google Research_.
 >Yasaman is a theoretical and computational scientist working at the intersection of machine learning and physical science. In one direction, she has worked on building foundations for deep learning and investigated core machine learning problems. In the other, she is interested in connections with and applications of machine learning to specific domains of physical science.
 
-**[Shibani Santurkar](),** _Postdoctoral Researcher at Stanford University_.
->Shibani works with Tatsu Hashimoto, Percy Liang, and Tengyu Ma, developing machine learning tools that can perform reliably in the real world, and characterizing the consequences if they fail to do so. Shibani’s research is supported by Open Philanthropy.
 
-**[Maithra Raghu]()** _Senior Research Scientist at Google Brain_.
->Maithra’s research focuses on enabling better interfacing between humans and AI systems, through developing techniques that give insights into the internals of modern machine learning systems, and using these insights to inform their design and interaction with humans at deployment.
+**[Ludwig Schmidt](),** _Assistant Professor at University of Washington, Research Scientist at Allen Institute for AI, Member of LAION_.
+>Ludwig’s research interests revolve around the foundations of machine learning, often with a focus on datasets, evaluation, reliable generalization, and large models. He is the recipient of a Google Ph.D. Fellowship, a Microsoft Simons Fellowship, a Best Paper Award from the International Conference on Machine Learning (ICML), and a Sprowls Dissertation Award from MIT.
 
-**[Behnam Neyshabur]()** _Senior Staff Research Scientist at Google_.
->Behnam is a senior staff research scientist at Google. Before that, he was a postdoctoral researcher at New York University and a member of Theoretical Machine Learning program at Institute for Advanced Study (IAS) in Princeton. Behnam’s interests include the science of deep learning and (out-of-distribution) generalization, where he has studied the role of implicit bias as well as compression-based notions of generalization.
+
+**[Zahra Kadkhodaie](),** _PhD student at NYU, Guest Researcher at the Center for Computational Neuroscience_.
+>Zahra’s research focuses on understanding and improving deep neural networks by analyzing and imposing mathematical symmetries on the architecture.  She is currently a PhD student advised by Prof.  Eero Simoncelli.
+
+**[Behnam Neyshabur]()** _Senior Staff Research Scientist at Google DeepMind_.
+>Behnam is a senior staff research scientist at Google DeepMind. Before that, he was a postdoctoral researcher at New York University and a member of Theoretical Machine Learning program at Institute for Advanced Study (IAS) in Princeton. Behnam’s interests include the science of deep learning and (out-of-distribution) generalization, where he has studied the role of implicit bias as well as compression-based notions of generalization.
+
+
+**[Preetum Nakkiran](),** _Research Scientist at Apple_.
+>Preetum’s research builds conceptual tools for understanding learning systems, including deep learning--- using both theory and experiment. His past works include Deep Double Descent, the Deep Bootstrap Framework, and Distributional Generalization.
+
+
+**[Surbhi Goel](),** _Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania_.
+>Surbhi’s research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms, especially deep learning.
+
+
+
+**[Zachary Lipton](),** _Assistant Professor at CMU, Chief Scientific Advisor to Abridge_.
+>Zachary’s research spans core ML methods and theory, their applications in healthcare and natural language processing, and critical concerns, both about the mode of inquiry itself, and the impact of the technology it produces on social systems.
+
+
+
 
 
 ## Organizers
@@ -76,4 +82,5 @@ The goal of this workshop is to be a home for fundamental studies that use empir
 **Jonas Geiping,** _University of Maryland, College Park_.
 > Jonas is a postdoctoral researcher at the University of Maryland, College Park. His research is centered on the intersection of current deep learning and mathematical optimization. As such, recent work has included understanding the impact of optimization on fundamental phenomena behind generalization and other topics in empirical investigation of deep learning phenomena. Jonas was awarded a PhD by the University of Siegen in 2021. He has previously co-organized the workshop  “Imaging and Vision from Theory to Applications”.
 
-
+**Aniruddha Saha,** _University of Maryland, College Park_.
+>Aniruddha is a postdoctoral researcher at the University of Maryland.  Aniruddha’s current research focuses on memorization in neural networks and on language modeling.  During his PhD, he worked as a Machine Learning Research Intern at Bosch Center for AI, an Applied Scientist Intern at Amazon Rekognition, and a Machine Learning Intern at Matroid. Prior to this, he was part of the DRAM Group of Samsung Semiconductor India Research.
