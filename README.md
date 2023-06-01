@@ -1,11 +1,69 @@
-# Sudo Science: Empirical Approaches for Understanding How Deep Learning Works
+# _Sudo Science_: Empirical Approaches for Understanding How Deep Learning Works
 
-## Tentative Workshop Schedule (times ET)
+Despite the widespread proliferation of neural networks, the mechanisms
+through which they operate so successfully are not well understood.
+While there is a strong community that seeks to understand training and
+generalization, this work is largely performed by developing
+*fundamental mathematical theories*. These theories often rely on strong
+assumptions and simplified setups that admit tractable mathematical
+analysis, but have the unintended consequence of also paring away
+complexities of deep learning pipelines that may be responsible for
+their success. Furthermore, these theories focus largely on classifiers,
+and have not yet addressed the remarkable performance of modern
+generative models. At the same time, there is a large community studying
+*applied science* — engineering new algorithms, tuning hyper-parameters,
+and achieving new benchmark numbers.
+
+Meanwhile, the deep learning community has had trouble creating a home
+for fundamental science, i.e, empirical studies that seek to understand
+the phenomena that underlie neural network behaviors, and test the
+veracity of mathematical theories, using the scientific method without
+resorting to highly simplified toy models. Fundamental empirical studies
+risk rejection by the deeply mathematical fundamental ML community
+because they do not contain proofs, often leading to toy theorems
+appearing in papers to satisfy reviewers, and simultaneously fail to
+appeal to the applied science community because they do not advance
+conventional engineering benchmarks. Nonetheless, this approach has been
+indispensable for understanding deep learning and has given rise to
+important topics such as the lottery ticket hypothesis , deep double
+descent , and the sharp-flat hypothesis for generalization . In short,
+despite its fundamental importance, fundamental science lacks strong
+representation in the deep learning community because it does not fit
+into the conventional categories of theory, methods, or applications.
+
+**The goal of this workshop is to be a home for fundamental studies that
+use empirical science to examine the inner workings of the full-fledged
+neural network systems that are used in practice, particularly with
+respect to understanding generalization**. This focus will be reflected
+through contributed talks, invited talks, a poster session, and a panel
+discussion comprising both theorists and empirical ML researchers who
+will discuss the roles of each approach in developing an understanding
+of deep learning. We wish to differentiate this workshop from other
+important but distinct efforts on interpretable and safe machine
+learning, which tend to be focused on interpreting what influences the
+predictions of a trained model, rather than understanding how neural
+networks provide good generalization. We believe a focused approach is
+required to make this topic recognized as a distinct and vital research
+effort.
+
+Topics of focus will include **(1)** What phenomena have recently been
+demonstrated in empirical studies, but for which we do not yet have a
+theoretical understanding? **(2)** Do rigorous theories stand up to the
+test of sudo science, or do they fail to describe the behaviors, inputs,
+and training loops required for deep learning in practice? **(3)** What
+standards should be applied to fundamental experimental work in deep
+learning, and what is the role of reproducibility? **(4)** How can
+recent empirical work inform us in designing better models and
+algorithms?
+
+ If you have any questions, please reach out to us at this email (<scienceofdl@gmail.com>).
+
+## Tentative Workshop Schedule (times CDT)
 
 
 | Time    	| Speaker/ Activity   	     | 
 |---------	|-----------	     |
-| 9:00am-9:30am 	| Informal Social Coffee	     | 
+| 9:00am-9:30am 	| Informal Coffee Social    | 
 | 9:30am-10:05am    | Invited Talk 1 (Ludwig Schmidt) and Q&A | 
 |10:05am-10:40am |  Invited Talk 2 (Yasaman Bahri) and Q&A |
 | 10:40am-11:15am | Invited Talk 3 (Zahra Kadkhodaie) and Q&A |
@@ -23,15 +81,11 @@
 
 ----
 
-Despite the widespread proliferation of neural networks, the mechanisms by which they operate so successfully are not well understood.  While there is a strong community that seeks to understand training and generalization, this work is largely done by developing fundamental mathematical theory. These theories often rely on strong assumptions and significantly simplified setups that admit tractable mathematical analysis, but have the unintended consequence of also paring away complexities of deep learning pipelines that may be responsible for their success.  At the same time, there is a large community focused on experimental studies of full-scale deep learning systems, but nearly all empirical studies are focused on applied science — fine-tuning, and improving benchmark numbers. Meanwhile, the deep learning community has had trouble creating a home for fundamental science, i.e, empirical studies that seek to understand the phenomena that underlie training and generalization using the scientific method without resorting to highly simplified toy models.  Fundamental empirical studies risk rejection by the deeply mathematical fundamental ML community because they do not contain proofs, and simultaneously fail to appeal to the applied science community because they do not advance conventional engineering benchmarks.  
-
-The goal of this workshop is to be a home for fundamental studies that use empirical science to examine the inner workings of the full-fledged neural network systems that are used in practice.  This focus will be reflected through invited talks as well as a panel discussion comprising theorists, neuroscientists, and empirical ML researchers who will discuss the roles of each approach in developing an understanding of deep learning.  Topics of focus will include (1) what phenomena have recently been demonstrated in empirical studies, but for which we do not yet have a theoretical understanding? (2) Do rigorous theories stand up to the test of sudo science, or do they fail to describe the behaviors, inputs, and training loops required for deep learning in practice? (3) What standards should be applied to fundamental experimental work in deep learning, and what is the role of reproducibility? If you have any questions, please reach out to us at this email (<scienceofdl@gmail.com>).
-
 
 ## Invited Speakers
 
 
-**[Yasaman Bahri](),** _Research Scientist at Google Research_.
+**[Yasaman Bahri](),** _Research Scientist at Google DeepMind_.
 >Yasaman is a theoretical and computational scientist working at the intersection of machine learning and physical science. In one direction, she has worked on building foundations for deep learning and investigated core machine learning problems. In the other, she is interested in connections with and applications of machine learning to specific domains of physical science.
 
 
@@ -46,17 +100,18 @@ The goal of this workshop is to be a home for fundamental studies that use empir
 >Behnam is a senior staff research scientist at Google DeepMind. Before that, he was a postdoctoral researcher at New York University and a member of Theoretical Machine Learning program at Institute for Advanced Study (IAS) in Princeton. Behnam’s interests include the science of deep learning and (out-of-distribution) generalization, where he has studied the role of implicit bias as well as compression-based notions of generalization.
 
 
-**[Preetum Nakkiran](),** _Research Scientist at Apple_.
->Preetum’s research builds conceptual tools for understanding learning systems, including deep learning--- using both theory and experiment. His past works include Deep Double Descent, the Deep Bootstrap Framework, and Distributional Generalization.
 
 
-**[Surbhi Goel](),** _Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania_.
->Surbhi’s research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms, especially deep learning.
-
-
+## Panelists
 
 **[Zachary Lipton](),** _Assistant Professor at CMU, Chief Scientific Advisor to Abridge_.
 >Zachary’s research spans core ML methods and theory, their applications in healthcare and natural language processing, and critical concerns, both about the mode of inquiry itself, and the impact of the technology it produces on social systems.
+
+**[Preetum Nakkiran](),** _Research Scientist at Apple_.
+>Preetum’s research builds conceptual tools for understanding learning systems, including deep learning--- using both theory and experiment. His past works include Deep Double Descent, the Deep Bootstrap Framework, and Distributional Generalization.
+
+**[Surbhi Goel](),** _Magerman Term Assistant Professor of Computer and Information Science at University of Pennsylvania_.
+>Surbhi’s research interests lie at the intersection of theoretical computer science and machine learning, with a focus on developing theoretical foundations for modern machine learning paradigms, especially deep learning.
 
 
 
